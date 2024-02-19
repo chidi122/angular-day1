@@ -1,0 +1,70 @@
+.hero {
+ 
+  background: url('../../assets/lambou.jpg') no-repeat center center/cover;
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  background-color:burlywood; 
+  padding: 20px;
+}
+
+.fast{
+background-color: brown;
+}
+
+
+
+
+.testP{
+  position: relative;
+}
+.test{
+  position: absolute;
+  right:5%;
+  top: 25%;
+}
+
+
+.registration-box {
+  background: sandybrown;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding-right: 15px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
